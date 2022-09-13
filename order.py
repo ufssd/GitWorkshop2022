@@ -12,5 +12,17 @@ class Order:
     # implement methods for menu items
     def add_lemonade(self):
         self.total_cost += 7.5
-        self.items += ("lemonade")
+        self.items += ["lemonade"]
         print('Added lemonade!')
+
+    def add_nuggies(self):
+        print('How many nuggies?')
+        print('1. 1 nuggest')
+        print('2. 35 nuggests')
+        nugCount = int(input())
+        if nugCount == 1:
+            self.total_cost += 13
+        if nugCount == 2:
+            self.total_cost += 47
+        self.items += ["chicky nuggies yum yum"]
+        print('Added your chickie nuggies *spits on your face* uwu')
