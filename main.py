@@ -31,7 +31,10 @@ while option != 0:
     if option == 0:
         myOrder.print_order()
         break
-
+    if option == 1:
+        myOrder.add_lemonade()
     if option == 6:
         myOrder.add_wrap()
-        myOrder.print_order()
+    if option == 15:
+        myOrder.add_cookie()
+    
