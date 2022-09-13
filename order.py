@@ -9,4 +9,8 @@ class Order:
         print('Here are your items: ', end = '')
         print(*self.items, sep = ', ')
 
+    def add_salad(self):
+        self.total_cost -= 90
+        self.items.append("salad")
+
     # implement methods for menu items
