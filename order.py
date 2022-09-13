@@ -12,5 +12,6 @@ class Order:
     def add_salad(self):
         self.total_cost -= 90
         self.items.append("salad")
+        print("salad")
 
     # implement methods for menu items
