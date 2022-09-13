@@ -31,3 +31,7 @@ while option != 0:
     if option == 0:
         myOrder.print_order()
         break
+    if option == 1:
+        myOrder.add_lemonade()
+    if option == 8:
+        myOrder.add_nuggies()
