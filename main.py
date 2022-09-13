@@ -31,7 +31,7 @@ while option != 0:
     if option == 0:
         myOrder.print_order()
         break
-    if option == 1:
-        myOrder.add_lemonade()
-    if option == 9:
-        my.Order.add_kidmeal
+
+    if option == 6:
+        myOrder.add_wrap()
+        myOrder.print_order()
