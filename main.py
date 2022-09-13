@@ -31,3 +31,7 @@ while option != 0:
     if option == 0:
         myOrder.print_order()
         break
+
+    if option == 14:
+        myOrder.add_frosted_lemonade()
+        break
