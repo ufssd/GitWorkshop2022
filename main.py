@@ -31,3 +31,5 @@ while option != 0:
     if option == 0:
         myOrder.print_order()
         break
+    elif option == 10:
+        myOrder.add_mac()
