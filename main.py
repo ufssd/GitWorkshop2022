@@ -33,3 +33,5 @@ while option != 0:
         break
     if option == 1:
         myOrder.add_lemonade()
+    if option == 9:
+        my.Order.add_kidmeal

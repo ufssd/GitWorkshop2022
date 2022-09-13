@@ -16,3 +16,8 @@ class Order:
         self.items += ["lemonade"]
         print("Added lemonade")
         
+    def add_kidmeal(self):
+        self.total_cost += 8
+        self.items += ["kid's meal"]
+        print("Added kid's meal")
+        
