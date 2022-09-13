@@ -21,4 +21,5 @@ while option != 0:
     if option == 0:
         myOrder.print_order()
         break
-    # implement more cases here
+    if option == 1:
+        myOrder.add_chicken_sandwich()
