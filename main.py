@@ -34,4 +34,3 @@ while option != 0:
 
     if option == 6:
         myOrder.add_wrap()
-        myOrder.print_order()
