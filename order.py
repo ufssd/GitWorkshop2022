@@ -26,3 +26,7 @@ class Order:
         print("Added wrap")
 
     # implement methods for menu items
+    def add_chicken_strips(self):
+        self.total_cost += 15
+        self.items += ['chicken strips']
+        print('added chicken strips')
