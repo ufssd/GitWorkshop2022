@@ -37,3 +37,7 @@ while option != 0:
         myOrder.add_salad()
     if option == 9:
         my.Order.add_kidmeal
+    if option == 6:
+        myOrder.add_wrap()
+    if option == 15:
+        myOrder.add_cookie()
