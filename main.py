@@ -30,4 +30,7 @@ while option != 0:
 
     if option == 0:
         myOrder.print_order()
+
+    if option == 1:
+        myOrder.add_lemonade()
         break
