@@ -33,8 +33,9 @@ while option != 0:
         break
     if option == 1:
         myOrder.add_lemonade()
+    if option == 3:
+        myOrder.add_coffee()
     if option == 6:
         myOrder.add_wrap()
     if option == 15:
         myOrder.add_cookie()
-    
