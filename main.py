@@ -13,6 +13,7 @@ while option != 0:
     print('4. Fries')
     print('5. Salad')
     print('6. Wrap')
+    print('6.5. 10 lbs of steel')
     print('7. Chicken Strips')
     print('8. Chicken Nuggies')
     print('9. Kid\'s Meal')
