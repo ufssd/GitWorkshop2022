@@ -34,6 +34,8 @@ while option != 0:
         break
     if option == 1:
         myOrder.add_lemonade()
+    if option == 2:
+        myOrder.add_coke()
     if option == 3:
         myOrder.add_coffee()
     if option == 5:
