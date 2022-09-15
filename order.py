@@ -33,3 +33,8 @@ class Order:
         self.total_cost += 5
         self.items.append("coffee")
         print("Added coffee")
+    
+    def add_shake(self):
+        self.total_cost += 6
+        self.items.append("shake")
+        print("Added shake")
