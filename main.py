@@ -36,6 +36,8 @@ while option != 0:
         myOrder.add_lemonade()
     if option == 3:
         myOrder.add_coffee()
+    if option == 5:
+        myOrder.add_salad()
     if option == 6:
         myOrder.add_wrap()
     if option == 15:
