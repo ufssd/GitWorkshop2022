@@ -13,6 +13,7 @@ while option != 0:
     print('4. Fries')
     print('5. Salad')
     print('6. Wrap')
+    print('6.5. 10 lbs of steel')
     print('7. Chicken Strips')
     print('8. Chicken Nuggies')
     print('9. Kid\'s Meal')
@@ -31,6 +32,13 @@ while option != 0:
     if option == 0:
         myOrder.print_order()
         break
-
-    elif option == 5:
+    if option == 1:
+        myOrder.add_lemonade()
+    if option == 3:
+        myOrder.add_coffee()
+    if option == 5:
         myOrder.add_salad()
+    if option == 6:
+        myOrder.add_wrap()
+    if option == 15:
+        myOrder.add_cookie()
